@@ -4,10 +4,12 @@ const views = require('koa-views')
 const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
-const logger = require('koa-logger')
+//const logger = require('koa-logger')
+const logUtil = require('./utils/log_util')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
+
 
 // error handler
 onerror(app)
@@ -25,12 +27,16 @@ app.use(views(__dirname + '/views', {
 }))
 
 // logger
-app.use(async (ctx, next) => {
+/*app.use(async (ctx, next) => {
   const start = new Date()
   await next()
   const ms = new Date() - start
   console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
-})
+})*/
+app.use(async (ctx, next) => {
+  //响应开始时间
+});
+
 
 // routes
 app.use(index.routes(), index.allowedMethods())
