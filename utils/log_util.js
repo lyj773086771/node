@@ -10,7 +10,7 @@ var errorLogger = log4js.getLogger('errorLogger');
 var resLogger = log4js.getLogger('resLogger');
 
 //封装错误日志
-logUtil.logErroe = function(ctx, error, resTime){
+logUtil.logError = function(ctx, error, resTime){
     if (ctx && error){
         errorLogger.error(formatError(ctx, error, resTime));
     }

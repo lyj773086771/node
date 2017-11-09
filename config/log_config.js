@@ -1,10 +1,23 @@
 var path = require('path');
 
-//错误日志输出完整路径
-var errorLogPath = path.resolve(__dirname, '../logs/error/error');
+//日志根目录
+var baseLogPath = path.resolve(__dirname, '../logs');
 
+//错误日志目录
+var errorPath = '/error';
+//错误日志文件名
+var errorFileName = 'error';
+//错误日志输出完整路径
+var errorLogPath = baseLogPath + errorPath + '/' + errorFileName;
+//var errorLogPath = path.resolve(__dirname, '../logs/error/error');
+
+//响应日志目录
+var resPath = '/response';
+//响应日志文件名
+var resFileName = 'response';
 //响应日志输出完整路径
-var responseLogPath = path.resolve(__dirname, '../logs/response/response');
+var responseLogPath = baseLogPath + resPath + '/' + resFileName;
+//var responseLogPath = path.resolve(__dirname, '../logs/response/response');
 
 module.exports = {
     "appenders": [
@@ -14,7 +27,8 @@ module.exports = {
             "type": "dateFile", //日志类型
             "filename": errorLogPath, //日志输出位置
             "alwaysIncludePattern": true, //是否总是有后缀名
-            "pattern": "-yyyy-MM-dd-hh.log" //后缀, 每小时创建一个新的日志文件
+            "pattern": "-yyyy-MM-dd-hh.log", //后缀, 每小时创建一个新的日志文件
+            "path": errorPath   //自定义属性,错误日志根目录
         },
         //响应日志
         {
@@ -22,12 +36,14 @@ module.exports = {
             "type": "dateFile",
             "filename": responseLogPath,
             "alwaysIncludePatteern": true,
-            "pattern": "-yyyy-MM-dd-hh.log"
+            "pattern": "-yyyy-MM-dd-hh.log",
+            "path": resPath
         }
     ],
     //设置logger名称对应的日志等级
     "levels": { 
         "errorLogger": "ERROR",
         "resLogger": "ALL"
-    }
+    },
+    "baseLogPath": baseLogPath  //logs根目录
 }
