@@ -1,0 +1,121 @@
+[2017-11-10 16:26:04.005] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/
+request client ip：::1
+request query：{}
+response time：245
+response body：
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2017-11-10 16:26:57.105] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/user?userId=1
+request client ip：::1
+request query：{"userId":"1"}
+response time：0
+response body：
+undefined
+*************** response log end ***************
+
+[2017-11-10 16:28:23.538] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/users?userId=1
+request client ip：::1
+request query：{"userId":"1"}
+response time：0
+response body：
+undefined
+*************** response log end ***************
+
+[2017-11-10 16:29:10.074] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/string?userId=1
+request client ip：::1
+request query：{"userId":"1"}
+response time：0
+response body：
+undefined
+*************** response log end ***************
+
+[2017-11-10 16:29:22.586] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/string
+request client ip：::1
+request query：{}
+response time：0
+response body：
+undefined
+*************** response log end ***************
+
+[2017-11-10 16:30:26.484] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/string
+request client ip：::1
+request query：{}
+response time：236
+response body：
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2017-11-10 16:30:46.415] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/string/string
+request client ip：::1
+request query：{}
+response time：1
+response body：
+"koa2 string"
+*************** response log end ***************
+
+[2017-11-10 16:30:54.671] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/string
+request client ip：::1
+request query：{}
+response time：14
+response body：
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2017-11-10 16:32:06.844] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/string
+request client ip：::1
+request query：{}
+response time：0
+response body：
+undefined
+*************** response log end ***************
+
+[2017-11-10 16:32:57.225] [INFO] resLogger - 
+*************** response log start ***************
+request method：POST
+request originalUrl：/?id=1&name=name
+request client ip：::1
+request body：undefined
+response time：0
+response body：
+undefined
+*************** response log end ***************
+
+[2017-11-10 16:33:06.174] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/?id=1&name=name
+request client ip：::1
+request query：{"id":"1","name":"name"}
+response time：233
+response body：
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+

@@ -1,10 +1,13 @@
 const Koa = require('koa')
 const app = new Koa()
+const router = require('koa-router')();
 const views = require('koa-views')
+const co = require('co');
+const convert = require('koa-convert');
 const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
-//const logger = require('koa-logger')
+const logger = require('koa-logger')
 const logUtil = require('./utils/log_util')
 
 const index = require('./routes/index')
@@ -15,11 +18,9 @@ const users = require('./routes/users')
 onerror(app)
 
 // middlewares
-app.use(bodyparser({
-  enableTypes:['json', 'form', 'text']
-}))
-app.use(json())
-//app.use(logger())
+app.use(convert(bodyparser()));
+app.use(convert(json()));
+app.use(convert(logger()))
 app.use(require('koa-static')(__dirname + '/public'))
 
 app.use(views(__dirname + '/views', {
@@ -43,6 +44,8 @@ app.use(async (ctx, next) => {
     await next();
 
     ms = new Date() - start;
+     
+    // throw new error("first error");
     //记录响应日志
     logUtil.logResponse(ctx, ms);
   }catch(error){
@@ -53,10 +56,12 @@ app.use(async (ctx, next) => {
 
 });
 
+router.use('/', index.routes(), index.allowedMethods());
+router.use('/users', users.routes(), users.allowedMethods());
 
 // routes
-app.use(index.routes(), index.allowedMethods())
-app.use(users.routes(), users.allowedMethods())
+app.use(router.routes(), index.allowedMethods())
+// app.use(users.routes(), users.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {

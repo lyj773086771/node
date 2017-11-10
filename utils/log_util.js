@@ -1,6 +1,7 @@
 var log4js = require('log4js');
 var log_config = require('../config/log_config');
 
+
 //加载配置文件
 log4js.configure(log_config);
 
@@ -31,7 +32,7 @@ var formatRes = function(ctx, resTime){
     logText += "\n" + "*************** response log start ***************" + "\n";
 
     //添加请求日志
-    logText += formatReqLog(ctx, request, resTime);
+    logText += formatReqLog(ctx, resTime);
 
     //响应状态码
     logText += "response body：" + "\n" + JSON.stringify(ctx.body) + "\n";
@@ -49,7 +50,7 @@ var formatError = function(ctx, err, resTime){
     logText += "\n" + "*************** error log start ***************" + "\n";
 
     //添加请求日志
-    logText += formatReqLog(ctx, request, resTime);
+    logText += formatReqLog(ctx, resTime);
 
     //错误名称
     logText += "err name：" + err.name + "\n";
@@ -67,29 +68,29 @@ var formatError = function(ctx, err, resTime){
 };
 
 //格式化请求日志
-var formatReqLog = function(req, resTime){
+var formatReqLog = function(ctx, resTime){
     let logText = new String();
 
     //访问方法
-    logText += "request method：" + req.method + "\n";
+    logText += "request method：" + ctx.method + "\n";
 
     //请求原始地址
-    logText += "request originalUrl：" + req.originalUrl + "\n";
+    logText += "request originalUrl：" + ctx.originalUrl + "\n";
 
     //客户端IP
-    logText += "request client ip：" + req.ip + "\n";
+    logText += "request client ip：" + ctx.ip + "\n";
 
     //请求参数
-    if(method === "GET"){
+    if(ctx.method === "GET"){
         //开始时间
-        logText += "request start time：" + req.query.requestStartTime + "\n";
+        //logText += "request start time：" + req.query.requestStartTime + "\n";
 
         //请求参数
-        logText += "request query：" + JSON.stringify(req.query) + "\n";
+        logText += "request query：" + JSON.stringify(ctx.query) + "\n";
     }else {
-        logText += "request start time：" + req.body.requestStartTime + "\n";
+        //logText += "request start time：" + req.body.requestStartTime + "\n";
 
-        logText += "request body：" + JSON.stringify(req.body) + "\n";
+        logText += "request body：" + JSON.stringify(ctx.body) + "\n";
     }
 
     //服务器响应时间

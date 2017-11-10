@@ -1,0 +1,28 @@
+[2017-11-10 16:36:20.599] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/?id=1&name=name
+request client ip：::1
+request query：{"id":"1","name":"name"}
+response time：233
+err name：ReferenceError
+err message：error is not defined
+err stack：ReferenceError: error is not defined
+    at app.use (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app.js:47:5)
+    at <anonymous>
+*************** error log end ***************
+
+[2017-11-10 16:37:23.052] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/?id=1&name=name
+request client ip：::1
+request query：{"id":"1","name":"name"}
+response time：223
+err name：ReferenceError
+err message：error is not defined
+err stack：ReferenceError: error is not defined
+    at app.use (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app.js:48:5)
+    at <anonymous>
+*************** error log end ***************
+
