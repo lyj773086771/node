@@ -13,6 +13,7 @@ const logUtil = require('./utils/log_util')
 const index = require('./routes/index')
 const users = require('./routes/users')
 const api = require('./routes/api')
+const response_formatter = require('./middlewares/response_formatter');
 
 
 // error handler
@@ -56,11 +57,12 @@ app.use(async (ctx, next) => {
   }
 
 });
+//添加格式化处理响应结果的中间件，在添加路由之前调用
+app.use(response_formatter('^/api'));
 
 router.use('/', index.routes(), index.allowedMethods());
 //router.use('/users', users.routes(), users.allowedMethods());
 router.use('/api', api.routes(), api.allowedMethods());
-
 // routes
 app.use(router.routes(), index.allowedMethods())
 // app.use(users.routes(), users.allowedMethods())
