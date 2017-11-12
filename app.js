@@ -12,6 +12,7 @@ const logUtil = require('./utils/log_util')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
+const api = require('./routes/api')
 
 
 // error handler
@@ -57,7 +58,8 @@ app.use(async (ctx, next) => {
 });
 
 router.use('/', index.routes(), index.allowedMethods());
-router.use('/users', users.routes(), users.allowedMethods());
+//router.use('/users', users.routes(), users.allowedMethods());
+router.use('/api', api.routes(), api.allowedMethods());
 
 // routes
 app.use(router.routes(), index.allowedMethods())
