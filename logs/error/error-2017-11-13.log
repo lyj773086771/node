@@ -1,0 +1,392 @@
+[2017-11-13 18:33:50.539] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：2
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:57.024] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：1
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:57.777] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：0
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:58.000] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：1
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:58.208] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：0
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:58.403] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：0
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:58.622] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：1
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:58.798] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：0
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:34:59.020] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：0
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:42:16.599] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser
+request client ip：::1
+request query：{}
+response time：0
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:42:57.691] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser?id=2
+request client ip：::1
+request query：{"id":"2"}
+response time：0
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:43:54.713] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser?id=2
+request client ip：::1
+request query：{"id":"2"}
+response time：3
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:44:59.411] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser?id=2
+request client ip：::1
+request query：{"id":"2"}
+response time：3
+err name：TypeError
+err message：Cannot read property 'code' of undefined
+err stack：TypeError: Cannot read property 'code' of undefined
+    at new ApiError (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\error\ApiError.js:12:33)
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2017-11-13 18:46:38.971] [ERROR] errorLogger - 
+*************** error log start ***************
+request method：GET
+request originalUrl：/api/users/getUser?id=2
+request client ip：::1
+request query：{"id":"2"}
+response time：4
+err name：userNotExist
+err message：用户不存在
+err stack：userNotExist: 用户不存在
+    at exports.getUser (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\app\controllers\user_controller.js:8:15)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at C:\Users\YBKJ\Desktop\node\koa2\HelloKoa2\middlewares\response_formatter.js:28:19
+*************** error log end ***************
+
