@@ -1,0 +1,22 @@
+[2017-11-14 14:59:16.586] [INFO] resLogger - 
+*************** response log start ***************
+request method：GET
+request originalUrl：/api/users/getUser?id=1
+request client ip：::ffff:127.0.0.1
+request query：{"id":"1"}
+response time：2
+response body：
+{"code":0,"message":"success","data":{"username":"username","age":20}}
+*************** response log end ***************
+
+[2017-11-14 14:59:16.719] [INFO] resLogger - 
+*************** response log start ***************
+request method：POST
+request originalUrl：/api/users/registerUser
+request client ip：::ffff:127.0.0.1
+request body：{"code":0,"message":"success"}
+response time：0
+response body：
+{"code":0,"message":"success"}
+*************** response log end ***************
+
